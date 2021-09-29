@@ -1,0 +1,186 @@
+#addnewrowtable {
+    border: 1px dashed lightgray;
+}
+
+table#addnewrowtable td {
+    text-align: center !important;
+}
+
+/*.product form.cart {*/
+/*    display: none;*/
+/*}*/
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger, .site-header {
+    z-index: 1 !important;
+}
+
+
+
+/*boxes for popup */
+/* Create three equal columns that floats next to each other */
+
+.col-container {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+.col {
+    flex: 1;
+    padding: 16px;
+    margin: 10px;
+    background-color: #F3F3F3;
+    border: 1px solid gray;
+}
+
+.col-inner-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-inner-box {
+    flex:1;
+}
+
+/*display table approach*/
+.table-container {
+  display: table;
+  width:100%;
+}
+
+.table-item {
+  display: inline-table;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  width: 33%;
+}
+
+.table-item .table-inner-item {
+    display: table-cell;
+    height: 150px;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #f3f3f3;
+    width: 100%;
+    padding:10px;
+}
+
+/*styling three columns in modal*/
+/* Float four columns side by side */
+.mspp_column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.mspp_column .mspp_column_40 {
+    width: 40%;
+}
+
+.mspp_column .mspp_column_30 {
+    width: 30%;
+}
+.mspp_column .mspp_column_19 {
+    width: 19%;
+}
+/* Remove extra left and right margins, due to padding */
+.mspp_row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.mspp_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .mspp_column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.mspp_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.popup-center {
+    text-align: center;
+    font-size:small;
+}
+
+.mspp_card_action{
+    -moz-box-shadow: 0 0 3px #ccc;
+-webkit-box-shadow: 0 0 3px #ccc;
+box-shadow: 0 0 3px #ccc;
+padding: 20px;
+background-color: #fff;
+margin: 10px;
+}
+
+.inlinelabel label {
+    display: inline-block !important;
+}
+
+.firstrowtd {
+    border-top: 1px solid gray;
+}
+.lastrowtd {
+    border-bottom: 1px solid gray;
+}
+.packthumbnail {
+    float: left;
+}
+
+div.packthumbnail img {
+    width: 25px;
+    margin: 10px;
+}
+
+div.packthumbnail {
+    cursor: pointer;
+}
+div.packthumbnail.active {
+    border:1px solid gray;
+}
+
+/*plus minus input box*/
+
+	span.qtyminus, span.qtyplus {
+	    cursor:pointer; 
+	}
+	
+	.qtynumber {
+	    min-width:93px;
+	}
+	
+	.qtyminus, .qtyplus{
+	    height: 33px;
+	    width:20px;
+	    background:#f2f2f2;
+	    border-radius:4px;
+	    padding:3px;
+	    border:1px solid #ddd;
+	    display: inline-block !important;
+	    vertical-align: middle;
+	    text-align: center;
+	    
+	}
+	.qtycounter {
+	    height: 33px;
+	    width: 39px;
+	    text-align: center;
+	    border:1px solid #ddd;
+	    border-radius:4px;
+	    display: inline-block !important;
+	    vertical-align: middle;
+	}
